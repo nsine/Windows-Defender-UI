@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DEF" xml:space="preserve">
+    <value>Антивирус </value>
+  </data>
+  <data name="DISABLE_DEFENDER" xml:space="preserve">
+    <value>Отключить антивирус</value>
+  </data>
+  <data name="DISABLE_FIREWALL" xml:space="preserve">
+    <value>Отключить брандмауэр</value>
+  </data>
+  <data name="DISABLE_PROTECTION" xml:space="preserve">
+    <value>Отключить защиту</value>
+  </data>
+  <data name="ENABLE_DEFENDER" xml:space="preserve">
+    <value>Включить антивирус</value>
+  </data>
+  <data name="ENABLE_FIREWALL" xml:space="preserve">
+    <value>Включить брандмауэр</value>
+  </data>
+  <data name="ENABLE_PROTECTION" xml:space="preserve">
+    <value>Включить защиту</value>
+  </data>
+  <data name="EXIT" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="FIRE" xml:space="preserve">
+    <value>Брандмауэр </value>
+  </data>
+  <data name="FULL_SCAN" xml:space="preserve">
+    <value>Полная проверка</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>отключен</value>
+  </data>
+  <data name="ON" xml:space="preserve">
+    <value>включен</value>
+  </data>
+  <data name="PROGRAM_SETTINGS" xml:space="preserve">
+    <value>Настройки программы</value>
+  </data>
+  <data name="PROTECTION_CONTROL" xml:space="preserve">
+    <value>Управление защитой</value>
+  </data>
+  <data name="PROTECTION_STATE" xml:space="preserve">
+    <value>Состояние защиты:</value>
+  </data>
+  <data name="QUICK_SCAN" xml:space="preserve">
+    <value>Быстрая проверка</value>
+  </data>
+  <data name="SCAN" xml:space="preserve">
+    <value>Выполнить проверку</value>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Настройки антивируса</value>
+  </data>
+  <data name="SHOW_LOG" xml:space="preserve">
+    <value>Открыть журнал</value>
+  </data>
+  <data name="UNDEFINED" xml:space="preserve">
+    <value>Нажмите для установки параметров...</value>
+  </data>
+  <data name="UNDEFINED_MB_CAPTION" xml:space="preserve">
+    <value>Инициализация параметра защиты</value>
+  </data>
+  <data name="UNDEFINED_MB_TEXT" xml:space="preserve">
+    <value>Для работы программы нужно хотя бы раз включить/отключить защиту в настройках антивируса.</value>
+  </data>
+  <data name="UPDATE" xml:space="preserve">
+    <value>Обновить определения</value>
+  </data>
+  <data name="UPDATE_AND_SCAN" xml:space="preserve">
+    <value>Обновить и проверить</value>
+  </data>
+  <data name="UPDATE_IN_PROGRESS" xml:space="preserve">
+    <value>Выполняется обновление...</value>
+  </data>
+  <data name="WINDOWS_DEFENDER" xml:space="preserve">
+    <value>Защитник Windows</value>
+  </data>
+  <data name="WINDOWS_FIREWALL" xml:space="preserve">
+    <value>Брандмауэр Windows</value>
+  </data>
+</root>
